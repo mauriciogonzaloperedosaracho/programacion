@@ -28,3 +28,6 @@ Route::get('acercade', function () {
 Route::get('bootstrap', function () {
     return view('bootstrap') ;
 });
+Route::get('solicitud', function () {
+    return view('solicitud') ;
+});
